@@ -1,0 +1,72 @@
+html body{
+  padding-top: 40px;
+  height: 100%;
+  background: linear-gradient(to left bottom, #e01c8b, #e12596, #e22da0, #e235ab, #e23db6, #cd5cd5, #b175ee, #8e8aff, #0cabff 70%, #00c5ff, #00d8f7, #39e7dc) no-repeat center center fixed;
+}
+body{
+  font-family: 'Poppins' ;
+}
+
+@media screen and (min-width: 1280px){
+  select.form-control{
+    margin-left: 40px;
+    width: 80%;
+    font-weight: 600;
+  }
+  label.col-form-label{
+    font-size: .9rem;
+    margin-left: 55px;
+    margin-top: 5px;
+    position: relative;
+  }
+}
+
+div.container{
+  background-color: white;
+  padding: 10px;
+  width: 35%;
+  height: 40rem;
+  border-radius: 10px;
+  position: relative;
+  bottom: 30px;
+}
+
+form.form-control{
+  border: 0;
+}
+.form-control{
+  border-style: none;
+  border-bottom: solid #bbbbbb 1px;
+  border-radius: 0;
+}
+input.form-control{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 80%;
+}
+.form-control::placeholder{
+  color: #bbbbbb;
+}
+textarea.form-control{
+  width: 80%;
+  border-style: none;
+  border-bottom: solid #bbbbbb 1px;
+  border-radius: 0;
+}
+button.btn{
+  color: white;
+  width: 80%;
+  background: linear-gradient(to right, #e01c8b, #e12596, #e22da0, #e235ab 35%, #e23db6, #cd5cd5, #b175ee, #8e8aff, #0cabff, #00c5ff, #00d8f7, #39e7dc);
+  border-radius: 40px;
+  border-style: none;
+}
+
+.heading{
+  margin-top: 10px;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 900;
+}
+:focus{
+  border-radius: 2px;
+}
